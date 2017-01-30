@@ -22,7 +22,7 @@ public class Klass {
     private Double fee;
     private Date created;
     private Teacher teacher;
-
+    private Date modified;
 
 
     @Id
@@ -70,9 +70,6 @@ public class Klass {
     public void setModified(Date modified) {
         this.modified = modified;
     }
-
-    private Date modified;
-
 
     public Date getSemester() {
         return semester;
