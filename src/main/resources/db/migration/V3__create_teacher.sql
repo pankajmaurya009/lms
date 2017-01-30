@@ -4,7 +4,7 @@ CREATE TABLE `teachers` (
   `age`       int(11)               NULL,
   `name`      varchar(45)           NOT NULL,
   `gender`    ENUM('MALE','FEMALE') NOT NULL,
-  `klass_id`  int(11)               NOT NULL,
+  `teacher_id`  int(11)               NOT NULL,
   `created`   timestamp             NOT NULL  CURRENT_TIMESTAMP,
   `modified`  timestamp             NOT NULL  CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
